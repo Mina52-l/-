@@ -1,0 +1,106 @@
+/* إعدادات عامة */
+body {
+  font-family: 'Tahoma', sans-serif;
+  margin: 0;
+  background: #f0f4f8;
+  color: #2c3e50;
+  line-height: 1.8;
+}
+
+/* العنوان الرئيسي */
+.main-header {
+  background: linear-gradient(90deg, #0a3d62, #1e6091);
+  color: #f1c40f;
+  text-align: center;
+  padding: 20px;
+  font-size: 1.3em;
+  letter-spacing: 2px;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.3);
+}
+
+/* قسم الشعار */
+.logo-section {
+  text-align: center;
+  padding: 40px 20px;
+  background: white;
+  margin: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.scout-logo {
+  width: 180px;
+  margin-bottom: 15px;
+}
+
+.logo-section h2 {
+  color: #0a3d62;
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+.logo-section p {
+  max-width: 600px;
+  margin: 0 auto;
+  color: #34495e;
+}
+
+/* قسم المحتوى اليومي */
+.content-section {
+  margin: 20px;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.content-section h2, .content-section h3 {
+  color: #1e6091;
+  margin-bottom: 10px;
+}
+
+/* قسم القادة */
+.leaders {
+  margin: 20px;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.leaders h2 {
+  text-align: center;
+  color: #1e6091;
+  margin-bottom: 20px;
+}
+
+.leader-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 15px;
+}
+
+.card {
+  background: #0a3d62;
+  color: #f1f2f6;
+  padding: 15px;
+  border-radius: 12px;
+  text-align: center;
+  font-weight: bold;
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.card:hover {
+  background: #1e6091;
+  transform: scale(1.05);
+}
+
+/* الفوتر */
+footer {
+  background: #1e6091;
+  color: #f1c40f;
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+  border-top: 3px solid #0a3d62;
+}
